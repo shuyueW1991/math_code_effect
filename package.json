@@ -1,0 +1,26 @@
+{
+  "name": "mymathanno",
+  "version": "1.0.0",
+  "description": "- install from: https://nodejs.org/\r - check installation: npm -v\r - npm install -g npm@latest\r     - encounter expiration\r - npm cache clean -f\r - npm config set registry https://registry.npmjs.org/",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "vue": "^3.4.27",
+    "vuetify": "^3.6.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.77.2",
+    "vite": "^5.2.11",
+    "vite-plugin-vuetify": "^2.0.3"
+  }
+}
